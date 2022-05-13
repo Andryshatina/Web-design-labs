@@ -1,0 +1,60 @@
+.container {
+	width: 100%;
+}
+
+.bg-image {
+	position: relative;
+	background-image: url('../img/homePage/Watches_on_man.jpg');
+	background-size: cover;
+}
+
+@media (min-width: 850px) {
+	.onImage {
+		padding: 6rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.onImage {
+		padding: 12rem;
+		font-size: 1.5rem;
+	}
+	
+}
+
+.about {
+	background-color: #F5F2E7;
+	padding: 100px;
+}
+.about i {
+	font-size: 25px;
+	color: #2C3333;
+}
+.itd-circle {
+	margin: 0 auto 15px;
+	width: 70px;
+	height: 70px;
+	border: 3px solid #2C3333;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.line {
+	width: 100px;
+	height: 3px;
+	background-color: #2666CF;
+	margin: 15px auto 30px;
+}
+.crd_item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.crd_itself {
+	border: 3px solid #2C3333;
+	border-radius: 10%;
+}
+.crd_image {
+	border-radius: 15%;
+}
