@@ -1,0 +1,239 @@
+:root {
+	--mainGrey: #ececec;
+	--mainSpacing: 0.1rem;
+	--mainTransition: all 0.3s linear;
+}
+
+.container {
+	width: 100%;
+}
+/* navigation */
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.cart-btn {
+	position: relative;
+	cursor: pointer;
+	color: #2666CF;
+}
+.nav-icon {
+	font-size: 26px;
+}
+.cart-items {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	padding: 0 3px;
+	border-radius: 30%;
+	color: white;
+	background: #dd2c35;
+}
+/*  */
+.bg-image {
+	position: relative;
+	background-image: url('../img/homePage/Watches_on_man.jpg');
+	background-size: cover;
+}
+
+@media (min-width: 850px) {
+	.onImage {
+		padding: 6rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.onImage {
+		padding: 12rem;
+		font-size: 1.5rem;
+	}
+	
+}
+
+.about {
+	background-color: #F5F2E7;
+	padding: 100px;
+}
+.about i {
+	font-size: 25px;
+	color: #2C3333;
+}
+.itd-circle {
+	margin: 0 auto 15px;
+	width: 70px;
+	height: 70px;
+	border: 3px solid #2C3333;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.line {
+	width: 100px;
+	height: 3px;
+	background-color: #2666CF;
+	margin: 15px auto 30px;
+}
+.crd_item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.crd_itself {
+	border: 3px solid #2C3333;
+	border-radius: 10%;
+}
+.crd_image {
+	border-radius: 15%;
+}
+.crd-price {
+	color: forestgreen;
+}
+/* --------------- Cart ---------------- */
+
+.cart-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	transition: var(--mainTransition);
+	background: rgba(25, 33, 71, 0.5);
+	z-index: 2;
+	visibility: hidden;
+}
+
+.cart {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	z-index: 3;
+	background: rgb(231, 226, 221);
+	padding: 1.5rem;
+	transition: var(--mainTransition);
+	transform: translateX(100%);
+}
+
+.cartActive {
+	transform: translateX(0);
+}
+
+.overlayActive {
+	visibility: visible;
+}
+
+@media screen and (min-width: 768px) {
+	.cart {
+		width: 30vw;
+		min-width: 450px;
+	}
+}
+
+.close-cart {
+	font-size: 1.7rem;
+	cursor: pointer;
+}
+
+.cart h2 {
+	text-transform: capitalize;
+	text-align: center;
+	letter-spacing: var(--mainSpacing);
+	margin-bottom: 2rem;
+}
+
+/*---------- Cart Item -------------------- */
+
+.cart-item {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto 1fr auto;
+	grid-column-gap: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+.cart-item img {
+	width: 75px;
+	height: 75px;
+}
+
+.cart-item h4 {
+	font-size: 0.85rem;
+	text-transform: capitalize;
+	letter-spacing: var(--mainSpacing);
+}
+
+.cart-item h5 {
+	margin: 0.5rem 0;
+	letter-spacing: var(--mainSpacing);
+}
+
+.remove-item {
+	color: grey;
+	cursor: pointer;
+}
+
+.fa-chevron-up,
+.fa-chevron-down {
+	color: #2C3333;
+	cursor: pointer;
+}
+
+.item-amount {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+/*---------- End of Cart Item -------------------- */
+
+.cart-footer {
+	margin-top: 2rem;
+	letter-spacing: var(--mainSpacing);
+	text-align: center;
+}
+
+.cart-footer h3 {
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+}
+
+.banner-btn {
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	letter-spacing: var(--mainSpacing);
+	font-size: 1rem;
+	background: #2C3333;
+	color: #e1fdc1;
+	border: 1px solid var(--primaryColor);
+	transition: var(--mainTransition);
+	cursor: pointer;
+}
+
+.banner-btn:hover {
+	background: transparent;
+	color: var(--primaryColor);
+}
+
+/* --------------- End of Cart ---------------- */
+.bag-btn {
+	color:#2666CF;
+	background: var(--primaryColor);
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: var(--mainSpacing);
+	font-weight: bold;
+	transition: var(--mainTransition);
+	cursor: pointer;
+}
+
+.bag-btn:hover {
+	color: forestgreen;
+}
+
+.fa-shopping-cart {
+	margin-right: 0.5rem;
+}
+

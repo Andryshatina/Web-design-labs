@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Watch",
+        "price": 10.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch1.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Super watch",
+        "price": 102.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch2.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Mega watch",
+        "price": 12.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch3.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Bomb watch",
+        "price": 22.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch4.webp"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Ultra watch",
+        "price": 88.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "King's watch",
+        "price": 32.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "Hyper watch",
+        "price": 45.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "La watch",
+        "price": 33.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch8.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "Boss watch",
+        "price": 39.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/watches/watch9.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
